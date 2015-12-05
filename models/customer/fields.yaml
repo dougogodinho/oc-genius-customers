@@ -1,0 +1,27 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    name:
+        label: Nome
+
+    description:
+        label: Descrição
+        type: richeditor
+
+    action:
+        label: Chamada
+
+    url:
+        label: Site
+        placeholder: com http://
+
+    image:
+        label: Imagem:
+        type: fileupload
+        size: small
+        mode: image
+        span: left
+        commentAbove: Fundo branco ou transparente

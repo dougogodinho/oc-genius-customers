@@ -1,0 +1,15 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+
+    id: '#'
+
+    name:
+        label: Nome
+        searchable: true
+
+    url:
+        label: Site
+        searchable: true

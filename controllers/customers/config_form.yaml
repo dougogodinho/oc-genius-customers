@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: genius.customers::lang.customer.label
+
+# Model Form Field configuration
+form: $/genius/customers/models/customer/fields.yaml
+
+# Model Class name
+modelClass: Genius\Customers\Models\Customer
+
+# Default redirect location
+defaultRedirect: genius/customers/customers
+
+# Create page
+create:
+    title: genius.customers::lang.customer.create_title
+    redirect: genius/customers/customers/update/:id
+    redirectClose: genius/customers/customers
+
+# Update page
+update:
+    title: genius.customers::lang.customer.update_title
+    redirect: genius/customers/customers
+    redirectClose: genius/customers/customers
+
+# Preview page
+preview:
+    title: genius.customers::lang.customer.preview_title
